@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/navigation"
 import { Hero } from "@/components/hero"
+import { WhatIsCaptive } from "@/components/what-is-captive"
 import { KeyBenefits } from "@/components/key-benefits"
 import { KeyMetrics } from "@/components/key-metrics"
 import { HowItWorks } from "@/components/how-it-works"
@@ -18,6 +19,7 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Navigation />
       <Hero />
+      <WhatIsCaptive />
       <KeyBenefits />
       <RiskComparison />
       <FrontingLogosBanner />
