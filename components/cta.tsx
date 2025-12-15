@@ -20,7 +20,7 @@ export function CTA() {
           </div>
 
           {/* Right side - Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-6">
             <div className="border border-border rounded-lg p-6 bg-background">
               <div className="text-xs text-foreground/50 uppercase tracking-widest mb-3">Typical Timeline</div>
               <div className="text-3xl text-primary mb-2">6-12 Months</div>
