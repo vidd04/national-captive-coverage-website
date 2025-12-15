@@ -9,25 +9,25 @@ export function Navigation() {
 
   return (
     <nav className="border-b border-border bg-background sticky top-0 z-50">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 text-foreground text-sm tracking-tight">
-            <Image src="/NCC-logo.png" alt="National Captive Insurance logo" width={32} height={32} className="h-5 w-auto" />
+            <Image src="/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" alt="National Captive Insurance logo" width={32} height={32} className="h-5 w-auto" loading="eager" />
             <span className="font-logo">National Captive Insurance</span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-12">
-            <Link href="/how-it-works" className="text-sm text-foreground/80 hover:text-foreground transition">
+            <Link href="#what-is-captive" className="text-sm text-foreground/80 hover:text-foreground transition">
               How It Works
             </Link>
-            <Link href="/industries" className="text-sm text-foreground/80 hover:text-foreground transition">
+            <Link href="#industries" className="text-sm text-foreground/80 hover:text-foreground transition">
               Industries
             </Link>
-            <Link href="/about" className="text-sm text-foreground/80 hover:text-foreground transition">
+            <Link href="#how-we-help" className="text-sm text-foreground/80 hover:text-foreground transition">
               About
             </Link>
-            <Link href="/contact" className="text-sm text-foreground/80 hover:text-foreground transition">
+            <Link href="#contact" className="text-sm text-foreground/80 hover:text-foreground transition">
               Contact
             </Link>
           </div>
@@ -47,16 +47,16 @@ export function Navigation() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden py-4 space-y-3 border-t border-border">
-            <Link href="/how-it-works" className="block text-sm text-foreground/80 hover:text-foreground">
+            <Link href="#what-is-captive" className="block text-sm text-foreground/80 hover:text-foreground" onClick={() => setIsOpen(false)}>
               How It Works
             </Link>
-            <Link href="/industries" className="block text-sm text-foreground/80 hover:text-foreground">
+            <Link href="#industries" className="block text-sm text-foreground/80 hover:text-foreground" onClick={() => setIsOpen(false)}>
               Industries
             </Link>
-            <Link href="/about" className="block text-sm text-foreground/80 hover:text-foreground">
+            <Link href="#how-we-help" className="block text-sm text-foreground/80 hover:text-foreground" onClick={() => setIsOpen(false)}>
               About
             </Link>
-            <Link href="/contact" className="block text-sm text-foreground/80 hover:text-foreground">
+            <Link href="#contact" className="block text-sm text-foreground/80 hover:text-foreground" onClick={() => setIsOpen(false)}>
               Contact
             </Link>
             <button className="w-full px-4 py-2 bg-primary text-primary-foreground text-sm hover:opacity-85 transition mt-4">

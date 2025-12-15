@@ -4,7 +4,11 @@ function renderText(text: string) {
     <>
       {parts.map((part, idx) => {
         if (part.startsWith("**") && part.endsWith("**")) {
-          return <strong key={idx} className="text-foreground">{part.slice(2, -2)}</strong>
+          return (
+            <span key={idx} className="font-semibold text-foreground">
+              {part.slice(2, -2)}
+            </span>
+          )
         }
         return <span key={idx}>{part}</span>
       })}
@@ -42,19 +46,19 @@ export function RiskComparison() {
   ]
 
   return (
-    <section className="px-4 py-20 sm:px-6 lg:px-8 bg-card">
+    <section className="px-6 py-20 sm:px-6 lg:px-8 bg-white">
       <div className="mx-auto max-w-6xl">
-        <h2 className="font-heading text-4xl text-foreground mb-4">Traditional Insurance vs. Captive</h2>
+        <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4">Commercial Insurance vs. Captive Insurance</h2>
         <p className="text-foreground/70 mb-12 max-w-2xl">
           Understand how captive insurance provides superior financial control and risk management capabilities.
         </p>
         
         {/* Desktop: Beautiful 3-column table layout */}
         <div className="hidden lg:block">
-          <div className="border border-border rounded-lg overflow-hidden bg-background">
+          <div className="border border-border border-l-4 border-l-primary rounded-lg overflow-hidden bg-background">
             {/* Header */}
             <div className="grid grid-cols-3 bg-primary/10 border-b border-border">
-              <div className="p-6 border-r border-border">
+              <div className="p-6 border-l-4 border-l-primary border-r border-primary">
                 <h3 className="font-heading text-lg text-primary font-medium">Captive Benefit</h3>
               </div>
               <div className="p-6 border-r border-border">
@@ -73,8 +77,8 @@ export function RiskComparison() {
                   idx % 2 === 0 ? "bg-background" : "bg-card"
                 }`}
               >
-                <div className="p-6 border-r border-border/50">
-                  <div className="font-heading text-base text-foreground font-medium">{row.benefit}</div>
+                <div className="p-6 border-l-4 border-l-primary border-r border-primary">
+                  <div className="text-base text-foreground font-medium">{row.benefit}</div>
                 </div>
                 <div className="p-6 border-r border-border/50">
                   <div className="text-sm text-foreground leading-relaxed">{renderText(row.captive)}</div>
@@ -91,7 +95,7 @@ export function RiskComparison() {
         <div className="lg:hidden space-y-6">
           {comparisons.map((row, idx) => (
             <div key={idx} className="border border-border rounded-lg p-6 bg-background">
-              <h4 className="font-heading text-base text-foreground font-medium mb-4">{row.benefit}</h4>
+              <h4 className="font-heading text-lg text-foreground font-medium mb-4">{row.benefit}</h4>
               <div className="space-y-3">
                 <div>
                   <div className="text-xs text-primary/70 mb-1">Captive Program (Your Offer)</div>

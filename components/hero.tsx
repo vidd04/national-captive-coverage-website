@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="px-4 pt-24 pb-32 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-white">
+    <section className="px-6 pt-24 pb-32 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-white">
       <div className="mx-auto max-w-5xl">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -29,6 +29,7 @@ export function Hero() {
               height={1200}
               className="w-full h-full max-h-full max-w-sm object-contain"
               style={{ filter: 'drop-shadow(0 0 30px rgba(147, 197, 253, 0.6)) drop-shadow(0 0 60px rgba(147, 197, 253, 0.3))' }}
+              loading="eager"
             />
           </div>
         </div>

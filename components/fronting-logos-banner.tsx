@@ -15,11 +15,11 @@ export function FrontingLogosBanner() {
   ]
 
   return (
-    <section className="px-4 py-20 sm:px-6 lg:px-8 bg-background border-y border-border">
+    <section className="px-6 py-20 sm:px-6 lg:px-8 bg-background border-y border-border">
       <div className="mx-auto max-w-6xl">
         {/* Heading and Description */}
         <div className="mb-8">
-          <h2 className="font-heading text-4xl text-foreground mb-4">Fronting Carriers</h2>
+          <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4">Fronting Carriers</h2>
           <p className="text-foreground/70 leading-relaxed max-w-4xl">
             Your policy utilizes the admitted paper of highly-rated fronting carriers, ensuring it is fully compliant and globally accepted. From a policyholder's perspective, the coverage through your captive looks and functions exactly the same as a policy secured on the open market.
           </p>

@@ -27,9 +27,9 @@ export function IndustryFocus() {
   ]
 
   return (
-    <section className="px-4 py-20 sm:px-6 lg:px-8 bg-card">
+    <section id="industries" className="px-6 py-20 sm:px-6 lg:px-8 bg-gray-100">
       <div className="mx-auto max-w-6xl">
-        <h2 className="font-heading text-4xl text-foreground mb-4">Industry Expertise</h2>
+        <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4">Industry Expertise</h2>
         <p className="text-foreground/70 mb-12 max-w-2xl">
           We specialize in designing captive solutions tailored to the unique risk profiles of specific industries.
         </p>

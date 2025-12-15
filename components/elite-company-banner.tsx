@@ -1,6 +1,6 @@
 export function EliteCompanyBanner() {
   return (
-    <section className="px-4 py-20 sm:px-6 lg:px-8 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10">
+    <section className="px-6 py-20 sm:px-6 lg:px-8 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10">
       <div className="mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -9,7 +9,7 @@ export function EliteCompanyBanner() {
             </p>
           </div>
           <div>
-            <h2 className="font-heading text-4xl text-foreground text-right">
+            <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground text-right">
               You are in<br />Elite Company
             </h2>
           </div>

@@ -3,12 +3,12 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-card px-4 py-12 sm:px-6 lg:px-8">
+    <footer className="border-t border-border bg-card px-6 py-12 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3.5 mb-4">
-              <Image src="/NCC-logo.png" alt="National Captive Insurance logo" width={48} height={48} className="h-9 w-auto" />
+              <Image src="/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" alt="National Captive Insurance logo" width={48} height={48} className="h-9 w-auto" />
               <h3 className="font-logo text-foreground text-lg">National Captive Insurance</h3>
             </div>
             <p className="text-sm text-foreground/70">
@@ -19,17 +19,17 @@ export function Footer() {
             <h4 className="text-foreground mb-4 text-sm">Solutions</h4>
             <ul className="space-y-2 text-sm text-foreground/70">
               <li>
-                <Link href="/how-it-works" className="hover:text-primary transition">
+                <Link href="#what-is-captive" className="hover:text-primary transition">
                   How It Works
                 </Link>
               </li>
               <li>
-                <Link href="/industries" className="hover:text-primary transition">
+                <Link href="#industries" className="hover:text-primary transition">
                   Industries
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-primary transition">
+                <Link href="#how-we-help" className="hover:text-primary transition">
                   About
                 </Link>
               </li>
@@ -39,7 +39,7 @@ export function Footer() {
             <h4 className="text-foreground mb-4 text-sm">Company</h4>
             <ul className="space-y-2 text-sm text-foreground/70">
               <li>
-                <Link href="/contact" className="hover:text-primary transition">
+                <Link href="#contact" className="hover:text-primary transition">
                   Contact
                 </Link>
               </li>

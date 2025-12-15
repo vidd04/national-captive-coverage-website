@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export function WhatIsCaptive() {
   return (
-    <section className="px-4 py-20 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-foreground/2">
+    <section id="what-is-captive" className="px-6 py-20 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-foreground/2">
       <div className="mx-auto max-w-6xl">
-        <h2 className="font-heading text-4xl text-foreground mb-12">What is a Captive?</h2>
+        <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-12">What is a Captive?</h2>
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left side - Image placeholder */}
           <div className="w-full">
@@ -27,10 +27,21 @@ export function WhatIsCaptive() {
             
             <div className="space-y-6 text-foreground/70 leading-relaxed">
               <p>
-                A <strong className="text-foreground">captive insurance company</strong> is a licensed insurance company that is owned and controlled by the same organization(s) it insures. It is a way for businesses to legally <strong className="text-foreground">self-insure</strong> their risk in a formal, regulated structure that has the ability to issue Certificates of Insurance (COIs) and qualify for tax deductibility.
+                A{" "}
+                <span className="font-semibold text-foreground">
+                  captive insurance company
+                </span>{" "}
+                is a licensed insurance company that is owned and controlled by the same organization(s) it insures. It is a way for businesses to legally{" "}
+                <span className="font-semibold text-foreground">
+                  self-insure
+                </span>{" "}
+                their risk in a formal, regulated structure that has the ability to issue Certificates of Insurance (COIs) and qualify for tax deductibility.
               </p>
               <p>
-                The portion of risk self-insured by a captive is strategically chosen by licensed actuaries to retain small, predictable losses and to <strong className="text-foreground">reduce the cost of additional coverage (reinsurance) used for catastrophic protection.</strong>
+                The portion of risk self-insured by a captive is strategically chosen by licensed actuaries to retain small, predictable losses and to{" "}
+                <span className="font-semibold text-foreground">
+                  reduce the cost of additional coverage (reinsurance) used for catastrophic protection.
+                </span>
               </p>
               <p>
                 For example, consider your business pays $1MM in annual premiums but only incurs $200K in claims. In the traditional market, the commercial insurer keeps the entire $800K difference. In a captive structure, a large portion of the $800k has the potential to become YOUR retained underwriting profit.

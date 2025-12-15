@@ -23,9 +23,9 @@ export function HowItWorks() {
   ]
 
   return (
-    <section className="px-4 py-20 sm:px-6 lg:px-8">
+    <section className="px-6 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <h2 className="font-heading text-4xl text-foreground mb-4">How Captive Insurance Works</h2>
+        <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4">How Captive Insurance Works</h2>
         <p className="text-foreground/70 mb-16 max-w-2xl">
           A structured four-phase approach to establishing and managing your organization's captive insurance program.
         </p>

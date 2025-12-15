@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${_geist.className} ${_geistMono.variable} ${_michroma.variable} font-sans antialiased`}>
+      <body className={`${_geist.className} ${_geistMono.variable} ${_michroma.variable} font-sans antialiased`} suppressHydrationWarning>
         {children}
         <Analytics />
       </body>

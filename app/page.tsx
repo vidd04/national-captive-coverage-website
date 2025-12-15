@@ -12,6 +12,7 @@ import { OurSolution } from "@/components/our-solution"
 import { EligibilityCriteria } from "@/components/eligibility-criteria"
 import { IndustryFocus } from "@/components/industry-focus"
 import { CTA } from "@/components/cta"
+import { QualifyCTA } from "@/components/qualify-cta"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero />
       <WhatIsCaptive />
       <KeyBenefits />
+      <QualifyCTA />
       <RiskComparison />
       <FrontingLogosBanner />
       <EliteCompanyBanner />
