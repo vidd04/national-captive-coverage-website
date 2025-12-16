@@ -685,3 +685,5 @@ The export QualifyCTA was not found in module [project]/Documents/national-capti
 The module has no exports at all.
 All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 [05:32:40.083] Server  LOG      ✓ Compiled in 94ms
+[06:03:37.027] Browser WARN    Image with src "/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
