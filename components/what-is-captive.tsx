@@ -6,17 +6,53 @@ export function WhatIsCaptive() {
       <div className="mx-auto max-w-6xl">
         <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-12">What is a Captive?</h2>
         <div className="grid lg:grid-cols-2 gap-12 lg:items-stretch items-start">
-          {/* Left side - Image */}
+          {/* Left side - 2x2 image grid */}
           <div className="w-full lg:h-full">
-            <div className="w-full h-full overflow-hidden lg:min-h-0">
-              <Image
-                src="/captive-page/what-is-a-captive.png"
-                alt="What is a Captive - Construction workers on a roof representing industries that use captive insurance"
-                width={800}
-                height={600}
-                className="w-full h-auto lg:h-full lg:object-cover object-cover object-left"
-                loading="lazy"
-              />
+            <div className="grid grid-cols-2 grid-rows-2 gap-4 h-full">
+              {/* Top-left */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden">
+                <Image
+                  src="/industries/Manufacturing.png"
+                  alt="Manufacturing industry"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
+              {/* Top-right - original captive image */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden">
+                <Image
+                  src="/captive-page/what-is-a-captive.png"
+                  alt="What is a Captive - Construction workers on a roof representing industries that use captive insurance"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
+              {/* Bottom-left */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden">
+                <Image
+                  src="/industries/Transportation-Logistics.png"
+                  alt="Transportation and logistics industry"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
+              {/* Bottom-right */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden">
+                <Image
+                  src="/industries/Construction-Contractors.png"
+                  alt="Construction and specialty contractors industry"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
 

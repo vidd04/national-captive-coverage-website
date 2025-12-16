@@ -44,17 +44,53 @@ export function KeyBenefits() {
             ))}
           </div>
 
-          {/* Right side - Image */}
+          {/* Right side - 2x2 image grid framed by dark blue */}
           <div className="h-full">
-            <div className="w-full h-full overflow-hidden">
-              <Image
-                src="/captive-page/captive-benefits.png"
-                alt="The Captive Benefit"
-                width={600}
-                height={600}
-                className="w-full h-full object-cover object-center"
-                loading="lazy"
-              />
+            <div className="w-full h-full rounded-lg bg-blue-900 p-3 grid grid-cols-2 grid-rows-2 gap-3">
+              {/* Top-left */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden rounded-md">
+                <Image
+                  src="/industries/Retail-Wholesale.png"
+                  alt="Retail and wholesale operations"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
+              {/* Top-right */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden rounded-md">
+                <Image
+                  src="/industries/Food-Beverage.png"
+                  alt="Food and beverage production"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
+              {/* Bottom-left */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden rounded-md">
+                <Image
+                  src="/industries/Real-Estate.png"
+                  alt="Real estate and property management"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
+              {/* Bottom-right */}
+              <div className="relative w-full h-32 sm:h-40 lg:h-full overflow-hidden rounded-md">
+                <Image
+                  src="/industries/Healthcare-Medical-Malpractice.png"
+                  alt="Healthcare and medical malpractice"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </div>
