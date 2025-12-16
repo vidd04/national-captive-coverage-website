@@ -36,6 +36,18 @@ export default function Home() {
       <EligibilityCriteria />
       <CTA />
       <Footer />
+
+      {/* Placeholder bottom section */}
+      <section className="px-6 py-16 sm:px-6 lg:px-8 bg-card border-t border-border mt-10">
+        <div className="mx-auto max-w-6xl text-center">
+          <p className="font-heading text-2xl sm:text-3xl text-foreground mb-4">
+            Placeholder Section
+          </p>
+          <p className="text-foreground/70">
+            This is a temporary section at the bottom of the page. Replace this content with your final copy and layout.
+          </p>
+        </div>
+      </section>
     </main>
   )
 }
