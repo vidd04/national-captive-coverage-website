@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function EligibilityCriteria() {
   const stats = [
     {
@@ -86,7 +88,7 @@ export function EligibilityCriteria() {
 
             {/* Industries Blockquote */}
             <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 md:p-7">
-              <p className="text-foreground/80 leading-relaxed italic text-sm md:text-base">
+              <p className="text-foreground/80 leading-relaxed text-sm md:text-base">
                 We are currently seeking long-term partners across a broad range of industries, including Manufacturing, Distribution, Construction, Transportation, Retail, Food & Beverage Production, Hospitality, Agri-business, and Oil & Gas Well Operations/Services.
               </p>
             </div>
@@ -96,8 +98,8 @@ export function EligibilityCriteria() {
             </p>
           </div>
 
-          {/* Right Column - Stats (non-sticky) */}
-          <div className="lg:col-span-1">
+          {/* Right Column - Stats + Image */}
+          <div className="lg:col-span-1 flex flex-col gap-6 h-full">
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-6">
               <h3 className="font-heading text-xl text-foreground mb-6 text-center">Key Requirements</h3>
               <div className="space-y-6">
@@ -109,6 +111,18 @@ export function EligibilityCriteria() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Image below Key Requirements */}
+            <div className="relative w-full flex-1 min-h-[14rem] lg:min-h-[18rem] rounded-lg overflow-hidden border border-border bg-muted">
+              <Image
+                src="/captive-page/background-3.png"
+                alt="Eligibility visual"
+                fill
+                className="object-cover"
+                style={{ objectPosition: "center" }}
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

@@ -96,6 +96,8 @@ export default function Home() {
       <OurSolution />
       <KeyMetrics />
       <HowItWorks />
+      {/* Thin blue bar between Next Steps and Industry Expertise */}
+      <div className="w-full h-2 bg-primary" />
       <IndustryFocus />
       <EligibilityCriteria />
       <CTA />
