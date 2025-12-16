@@ -137,3 +137,551 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [02:58:43.723] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [02:58:43.723] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
 [02:58:43.723] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765858983267}
+[03:05:44.535] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:18:53.400] Server  LOG      ✓ Compiled in 302ms
+[03:23:25.728] Server  LOG      ✓ Compiled in 414ms
+[03:25:25.169] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:25:25.169] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:25:25.169] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765860584749}
+[03:34:09.738] Browser ERROR   uncaughtError: Error: Image with src "/captive-page/hero-background.png" has both "fill" and "style.width" properties. Images with "fill" always use width 100% - it cannot be modified.
+[03:34:10.523] Browser ERROR   uncaughtError: Error: Image with src "/captive-page/hero-background.png" has both "fill" and "style.width" properties. Images with "fill" always use width 100% - it cannot be modified.
+[03:34:10.523] Browser ERROR   uncaughtError: Error: Image with src "/captive-page/hero-background.png" has both "fill" and "style.width" properties. Images with "fill" always use width 100% - it cannot be modified.
+[03:34:10.523] Browser ERROR   uncaughtError: Error: Image with src "/captive-page/hero-background.png" has both "fill" and "style.width" properties. Images with "fill" always use width 100% - it cannot be modified.
+[03:34:10.523] Browser ERROR   uncaughtError: Error: Image with src "/captive-page/hero-background.png" has both "fill" and "style.width" properties. Images with "fill" always use width 100% - it cannot be modified.
+[03:34:10.525] Browser ERROR   uncaughtError: Error: Image with src "/captive-page/hero-background.png" has both "fill" and "style.width" properties. Images with "fill" always use width 100% - it cannot be modified.
+[03:34:22.941] Server  LOG      ✓ Compiled in 92ms
+[03:34:24.778] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:34:25.247] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:34:25.247] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:34:25.247] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#what-is-captive color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#what-is-captive","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861123145}
+[03:34:25.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:34:25.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:34:25.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:34:25.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:34:25.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:34:26.522] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:34:26.522] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:34:26.522] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861124348}
+[03:34:26.529] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861124336}
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861124376}
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:34:26.530] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861124322}
+[03:34:26.531] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:34:26.531] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:34:26.531] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861124308}
+[03:36:54.952] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:36:54.953] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:36:54.953] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861274545}
+[03:37:10.755] Browser WARN    Image with src "/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:37:13.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:37:13.376] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:37:13.376] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:37:13.376] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861291267}
+[03:37:48.517] Server  LOG      ✓ Compiled in 289ms
+[03:37:55.978] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:37:55.978] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:37:55.978] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861335577}
+[03:38:16.665] Browser WARN    Image with src "/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:38:18.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:38:18.566] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:38:18.566] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:38:18.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861356465}
+[03:40:11.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:40:11.438] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:40:11.438] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:40:11.438] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861469332}
+[03:41:16.582] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:41:16.862] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:41:16.862] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:41:16.862] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861534759}
+[03:41:21.809] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:41:21.809] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:41:21.809] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861541414}
+[03:43:55.207] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:43:55.207] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:43:55.207] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861694815}
+[03:44:03.119] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:44:03.403] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:44:03.403] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:44:03.403] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861701286}
+[03:44:07.998] Browser WARN    Image with src "/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:44:10.101] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:44:10.452] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:44:10.452] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:44:10.452] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861708350}
+[03:47:37.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:47:38.232] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:47:38.233] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:47:38.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765861916132}
+[04:29:21.466] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:29:21.466] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:29:21.466] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765864421126}
+[04:43:31.504] Server  LOG      ✓ Compiled in 214ms
+[04:48:46.907] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:48:46.907] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:48:46.907] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765865586610}
+[04:55:55.366] Server  LOG      ✓ Compiled in 283ms
+[04:58:01.383] Server  LOG      ✓ Compiled in 72ms
+[04:58:03.879] Server  LOG      ✓ Compiled in 62ms
+[05:00:49.144] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:00:49.144] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:00:49.144] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.86.46:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.86.46:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765866308865}
+[05:05:26.517] Server  LOG      ✓ Compiled in 272ms
+[05:05:26.630] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:05:26.639] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:05:27.521] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:05:27.521] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:05:27.521] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:05:27.521] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:07:10.974] Server  LOG      ✓ Compiled in 127ms
+[05:08:51.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:08:52.096] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:08:52.096] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:08:52.096] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765866789985}
+[05:14:08.594] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:14:09.507] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:14:09.507] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:14:09.507] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:14:09.507] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:14:09.507] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.197] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.197] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.308] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.308] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:27.508] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:16:29.010] Server  LOG      ✓ Compiled in 99ms
+[05:19:16.735] Server  LOG      ✓ Compiled in 64ms
+[05:19:17.116] Server  LOG      ✓ Compiled in 70ms
+[05:20:15.201] Server  LOG      ✓ Compiled in 104ms
+[05:20:24.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:20:24.528] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:20:24.528] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:20:24.528] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765867482413}
+[05:21:06.224] Server  LOG      ✓ Compiled in 69ms
+[05:21:06.606] Server  LOG      ✓ Compiled in 61ms
+[05:23:18.280] Server  ERROR   C:\Users\vidhu\Documents\national-captive-coverage-website\.next\dev\server\chunks\ssr\[root-of-the-server]__e0795da2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[05:23:18.290] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[05:23:18.396] Server  ERROR   C:\Users\vidhu\Documents\national-captive-coverage-website\.next\dev\server\chunks\ssr\[root-of-the-server]__e0795da2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[05:23:18.397] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[05:23:18.503] Server  ERROR   C:\Users\vidhu\Documents\national-captive-coverage-website\.next\dev\server\chunks\ssr\[root-of-the-server]__e0795da2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[05:23:18.505] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[05:23:18.604] Server  ERROR   C:\Users\vidhu\Documents\national-captive-coverage-website\.next\dev\server\chunks\ssr\[root-of-the-server]__e0795da2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[05:23:18.606] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[05:23:18.721] Server  ERROR   C:\Users\vidhu\Documents\national-captive-coverage-website\.next\dev\server\chunks\ssr\[root-of-the-server]__e0795da2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[05:23:18.722] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[05:23:18.836] Server  ERROR   C:\Users\vidhu\Documents\national-captive-coverage-website\.next\dev\server\chunks\ssr\[root-of-the-server]__e0795da2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[05:23:18.837] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[05:23:19.103] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[05:23:19.154] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[05:23:19.518] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[05:23:19.519] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[05:23:19.529] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[05:23:19.531] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[05:23:34.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:23:35.581] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:23:35.581] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:23:35.581] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#what-is-captive color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#what-is-captive","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765867673469}
+[05:23:35.650] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:23:36.127] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:23:36.127] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:23:36.127] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765867674020}
+[05:23:36.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:23:36.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:23:36.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:23:36.796] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:23:37.521] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:23:37.521] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:23:37.521] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765867675332}
+[05:23:37.529] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765867675353}
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765867675354}
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:23:37.530] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765867675379}
+[05:25:31.735] Server  LOG      ✓ Compiled in 400ms
+[05:28:22.334] Server  LOG      ✓ Compiled in 177ms
+[05:28:22.437] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:28:22.450] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:28:22.513] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:28:22.513] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:28:22.518] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:28:22.520] Browser ERROR   ./Documents/national-captive-coverage-website/app/page.tsx:16:1
+Export QualifyCTA doesn't exist in target module
+  14 | import { LinesOfCoverage } from "@/components/lines-of-coverage"
+  15 | import { CTA } from "@/components/cta"
+> 16 | import { QualifyCTA } from "@/components/qualify-cta"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 | import { Footer } from "@/components/footer"
+  18 |
+  19 | export default function Home() {
+
+The export QualifyCTA was not found in module [project]/Documents/national-captive-coverage-website/components/qualify-cta.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[05:32:40.083] Server  LOG      ✓ Compiled in 94ms
