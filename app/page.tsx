@@ -11,6 +11,7 @@ import { WhyHaventBrokerTold } from "@/components/why-havent-broker-told"
 import { OurSolution } from "@/components/our-solution"
 import { EligibilityCriteria } from "@/components/eligibility-criteria"
 import { IndustryFocus } from "@/components/industry-focus"
+import { LinesOfCoverage } from "@/components/lines-of-coverage"
 import { CTA } from "@/components/cta"
 import { QualifyCTA } from "@/components/qualify-cta"
 import { Footer } from "@/components/footer"
@@ -31,6 +32,7 @@ export default function Home() {
       <KeyMetrics />
       <HowItWorks />
       <IndustryFocus />
+      <LinesOfCoverage />
       <EligibilityCriteria />
       <CTA />
       <Footer />

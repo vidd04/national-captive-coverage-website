@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="px-6 pt-24 pb-32 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-white">
+    <section className="px-6 pt-12 pb-40 sm:pb-44 lg:pb-48 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-white relative">
       <div className="mx-auto max-w-5xl">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div>
             <h1 className="font-heading font-light text-4xl lg:text-5xl text-foreground leading-tight mb-6">
               Stop Buying Insurance. Own it
@@ -32,6 +32,29 @@ export function Hero() {
               loading="eager"
             />
           </div>
+        </div>
+      </div>
+      {/* Divider Image */}
+      <div className="absolute bottom-0 left-0 right-0 w-full h-16 sm:h-20 lg:h-24 flex">
+        <div className="relative w-1/2 h-full overflow-hidden">
+          <Image
+            src="/captive-page/hero-background.png"
+            alt=""
+            fill
+            className="object-cover"
+            style={{ objectPosition: 'center right' }}
+            loading="lazy"
+          />
+        </div>
+        <div className="relative w-1/2 h-full overflow-hidden">
+          <Image
+            src="/captive-page/hero-background.png"
+            alt=""
+            fill
+            className="object-cover"
+            style={{ objectPosition: 'center left', transform: 'scaleX(-1)' }}
+            loading="lazy"
+          />
         </div>
       </div>
     </section>

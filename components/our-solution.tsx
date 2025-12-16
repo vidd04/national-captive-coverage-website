@@ -1,7 +1,24 @@
+import Image from "next/image"
+
 export function OurSolution() {
   return (
-    <section id="how-we-help" className="px-6 py-20 sm:px-6 lg:px-8 bg-gray-100">
-      <div className="mx-auto max-w-6xl">
+    <section id="how-we-help" className="px-6 py-20 sm:px-6 lg:px-8 bg-gray-100 relative">
+      {/* Background Image - covering half vertically */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute inset-x-0 bottom-0 h-1/2 overflow-hidden">
+          <div className="absolute inset-x-0 bottom-0 h-[200%]">
+            <Image
+              src="/captive-page/how-we-help.png"
+              alt=""
+              fill
+              sizes="100vw"
+              className="object-cover object-center"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="mx-auto max-w-6xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left side - Title */}
           <div>

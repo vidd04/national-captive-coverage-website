@@ -1,28 +1,48 @@
 export function IndustryFocus() {
   const industries = [
     {
-      name: "Manufacturing & Industrial",
-      image: "/placeholder.jpg", // Replace with actual industry images
+      name: "Manufacturing",
+      image: "/industries/Manufacturing.png",
+    },
+    {
+      name: "Distribution & Warehousing",
+      image: "/industries/Warehousing-Distribution.png",
+    },
+    {
+      name: "Construction & Specialty Contractors",
+      image: "/industries/Construction-Contractors.png",
     },
     {
       name: "Transportation & Logistics",
-      image: "/placeholder.jpg",
+      image: "/industries/Transportation-Logistics.png",
     },
     {
-      name: "Healthcare & Medical",
-      image: "/placeholder.jpg",
+      name: "Retail & Wholesale",
+      image: "/industries/Retail-Wholesale.png",
+    },
+    {
+      name: "Food & Beverage",
+      image: "/industries/Food-Beverage.png",
+    },
+    {
+      name: "Agribusiness",
+      image: "/industries/Agribusiness.png",
+    },
+    {
+      name: "Energy & Energy Services",
+      image: "/industries/Energy-Services.png",
+    },
+    {
+      name: "Healthcare & Medical Malpractice",
+      image: "/industries/Healthcare-Medical-Malpractice.png",
     },
     {
       name: "Real Estate & Property Management",
-      image: "/placeholder.jpg",
+      image: "/industries/Real-Estate.png",
     },
     {
-      name: "Technology & Professional Services",
-      image: "/placeholder.jpg",
-    },
-    {
-      name: "Financial Services",
-      image: "/placeholder.jpg",
+      name: "Professional Services",
+      image: "/industries/Professional-Services.png",
     },
   ]
 
@@ -39,27 +59,39 @@ export function IndustryFocus() {
               key={idx}
               className="relative aspect-square rounded-lg overflow-hidden group hover:scale-105 transition-transform duration-300"
             >
-              {/* Background Image with Blur and Dim */}
+              {/* Background Image */}
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundImage: `url(${industry.image})`,
-                  filter: "blur(4px) brightness(0.5)",
-                  transform: "scale(1.1)",
                 }}
               />
-              
-              {/* Overlay for additional dimming */}
-              <div className="absolute inset-0 bg-foreground/40" />
-              
-              {/* Industry Name - Bottom Right */}
-              <div className="absolute bottom-0 right-0 p-6">
+
+              {/* Industry Name - Bottom Bar */}
+              <div className="absolute inset-x-0 bottom-0 bg-blue-900/90 px-5 py-4">
                 <h3 className="font-heading text-lg lg:text-xl text-white font-medium">
                   {industry.name}
                 </h3>
               </div>
             </div>
           ))}
+
+          {/* Fallback industry card */}
+          <div className="relative aspect-square rounded-lg bg-blue-900 text-white p-6 flex flex-col justify-between">
+            <div>
+              <h3 className="font-heading text-lg lg:text-xl font-medium mb-3">
+                Don't see your industry?
+              </h3>
+              <p className="text-sm text-blue-100 leading-relaxed">
+                We can still help you evaluate whether a captive is the right fit for your business.
+              </p>
+            </div>
+            <div className="mt-4">
+              <button className="px-5 py-2 bg-white text-blue-900 text-sm font-medium hover:opacity-90 transition">
+                Contact Us
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>

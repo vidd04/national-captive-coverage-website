@@ -28,7 +28,7 @@ export function KeyBenefits() {
     <section className="px-6 py-20 sm:px-6 lg:px-8 bg-white">
       <div className="mx-auto max-w-6xl">
         <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-12">The Captive Benefit</h2>
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 items-stretch">
           {/* Left side - 2x2 grid of benefit boxes */}
           <div className="grid grid-cols-2 gap-6">
             {benefits.map((benefit, idx) => (
@@ -44,15 +44,16 @@ export function KeyBenefits() {
             ))}
           </div>
 
-          {/* Right side - Image placeholder */}
-          <div>
-            <div className="w-full bg-muted rounded-lg flex items-center justify-center min-h-[400px]">
+          {/* Right side - Image */}
+          <div className="h-full">
+            <div className="w-full h-full overflow-hidden">
               <Image
-                src="/placeholder.svg"
+                src="/captive-page/captive-benefits.png"
                 alt="The Captive Benefit"
-                width={400}
-                height={400}
-                className="w-full h-full object-contain opacity-50"
+                width={600}
+                height={600}
+                className="w-full h-full object-cover object-center"
+                loading="lazy"
               />
             </div>
           </div>

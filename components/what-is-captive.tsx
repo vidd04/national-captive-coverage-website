@@ -4,17 +4,17 @@ export function WhatIsCaptive() {
   return (
     <section id="what-is-captive" className="px-4 py-20 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-foreground/2">
       <div className="mx-auto max-w-6xl">
-        <h2 className="font-heading text-4xl text-foreground mb-12">What is a Captive?</h2>
+        <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-12">What is a Captive?</h2>
         <div className="grid lg:grid-cols-2 gap-12 lg:items-stretch items-start">
           {/* Left side - Image */}
           <div className="w-full lg:h-full">
-            <div className="w-full h-full rounded-lg overflow-hidden lg:min-h-0">
+            <div className="w-full h-full overflow-hidden lg:min-h-0">
               <Image
                 src="/captive-page/what-is-a-captive.png"
                 alt="What is a Captive - Construction workers on a roof representing industries that use captive insurance"
                 width={800}
                 height={600}
-                className="w-full h-auto lg:h-full lg:object-cover object-cover object-left rounded-lg"
+                className="w-full h-auto lg:h-full lg:object-cover object-cover object-left"
                 loading="lazy"
               />
             </div>
