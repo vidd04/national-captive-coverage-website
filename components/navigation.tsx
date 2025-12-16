@@ -33,7 +33,7 @@ export function Navigation() {
           </div>
 
           <button className="hidden md:block px-6 py-2 bg-primary text-primary-foreground text-sm hover:opacity-85 transition">
-            Request Study
+            Contact Us
           </button>
 
           {/* Mobile Menu Button */}
@@ -60,7 +60,7 @@ export function Navigation() {
               Contact
             </Link>
             <button className="w-full px-4 py-2 bg-primary text-primary-foreground text-sm hover:opacity-85 transition mt-4">
-              Request Study
+              Contact Us
             </button>
           </div>
         )}

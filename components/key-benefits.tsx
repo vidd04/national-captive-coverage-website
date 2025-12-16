@@ -30,13 +30,13 @@ export function KeyBenefits() {
         <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-12">The Captive Benefit</h2>
         <div className="grid lg:grid-cols-2 gap-12 items-stretch">
           {/* Left side - 2x2 grid of benefit boxes */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-stretch">
             {benefits.map((benefit, idx) => (
               <div
                 key={idx}
-                className="border border-blue-900 rounded-lg p-6 bg-white hover:border-primary/60 hover:shadow-lg transition-all duration-300 group"
+                className="border border-blue-900 rounded-lg p-6 bg-white hover:border-primary/60 hover:shadow-lg transition-all duration-300 group h-full flex flex-col"
               >
-                <h3 className="font-heading text-lg text-foreground mb-3 group-hover:text-primary transition-colors">
+                <h3 className="font-heading text-base sm:text-lg text-foreground mb-3 group-hover:text-primary transition-colors md:min-h-[3.25rem]">
                   {benefit.title}
                 </h3>
                 <p className="text-sm text-foreground/70 leading-relaxed">{benefit.description}</p>

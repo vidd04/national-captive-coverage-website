@@ -12,10 +12,10 @@ export function WhyHaventBrokerTold() {
           The Best Kept Secret in Commercial Insurance
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 items-stretch">
           {/* Section 1 Box */}
-          <div className="border border-foreground/40 rounded-lg p-8 bg-card hover:border-primary/60 hover:shadow-lg transition-all duration-300">
-            <h3 className="font-heading text-xl sm:text-2xl font-normal text-foreground mb-6">
+          <div className="border border-foreground/40 rounded-lg p-8 bg-card hover:border-primary/60 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+            <h3 className="font-heading text-xl sm:text-2xl font-normal text-foreground mb-6 min-h-[3.25rem] flex items-end">
               1. The Conflict of Interest: Misaligned Incentives
             </h3>
             <p className="text-foreground/70 leading-relaxed mb-4 md:min-h-[96px]">
@@ -47,8 +47,8 @@ export function WhyHaventBrokerTold() {
           </div>
 
           {/* Section 2 Box */}
-          <div className="border border-foreground/40 rounded-lg p-8 bg-card hover:border-primary/60 hover:shadow-lg transition-all duration-300">
-            <h3 className="font-heading text-xl sm:text-2xl font-normal text-foreground mb-6">
+          <div className="border border-foreground/40 rounded-lg p-8 bg-card hover:border-primary/60 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+            <h3 className="font-heading text-xl sm:text-2xl font-normal text-foreground mb-6 min-h-[3.25rem] flex items-end">
               2. The Execution Barrier: Historically High Complexity
             </h3>
             <p className="text-foreground/70 leading-relaxed mb-4 md:min-h-[96px]">

@@ -53,7 +53,7 @@ export function IndustryFocus() {
         <p className="text-foreground/70 mb-12 max-w-2xl">
           We specialize in designing captive solutions tailored to the unique risk profiles of specific industries.
         </p>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
           {industries.map((industry, idx) => (
             <div
               key={idx}
@@ -68,8 +68,8 @@ export function IndustryFocus() {
               />
 
               {/* Industry Name - Bottom Bar */}
-              <div className="absolute inset-x-0 bottom-0 bg-blue-900/90 px-5 py-4">
-                <h3 className="font-heading text-lg lg:text-xl text-white font-medium">
+              <div className="absolute inset-x-0 bottom-0 bg-blue-900/90 px-4 py-3">
+                <h3 className="font-heading text-sm sm:text-base lg:text-sm text-white font-medium leading-tight">
                   {industry.name}
                 </h3>
               </div>
@@ -77,9 +77,9 @@ export function IndustryFocus() {
           ))}
 
           {/* Fallback industry card */}
-          <div className="relative aspect-square rounded-lg bg-blue-900 text-white p-6 flex flex-col justify-between">
+          <div className="relative aspect-square rounded-lg bg-blue-900 text-white p-5 flex flex-col justify-between">
             <div>
-              <h3 className="font-heading text-lg lg:text-xl font-medium mb-3">
+              <h3 className="font-heading text-base lg:text-sm font-medium mb-3 leading-tight">
                 Don't see your industry?
               </h3>
               <p className="text-sm text-blue-100 leading-relaxed">

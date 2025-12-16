@@ -25,9 +25,9 @@ export function HowItWorks() {
   return (
     <section className="px-6 py-20 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4">How Captive Insurance Works</h2>
+        <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4">Next Steps</h2>
         <p className="text-foreground/70 mb-16 max-w-2xl">
-          A structured four-phase approach to establishing and managing your organization's captive insurance program.
+          A clear four-step process to evaluate, structure, and manage a captive insurance program for your business.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, idx) => (
@@ -37,6 +37,15 @@ export function HowItWorks() {
               <p className="text-sm text-foreground/70 leading-relaxed">{step.desc}</p>
             </div>
           ))}
+        </div>
+        {/* Thin blue bar callout under steps */}
+        <div className="mt-10 rounded-full border border-primary bg-primary/5 px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <p className="text-sm text-primary font-medium">
+            Learn more about how captive insurance can change your business.
+          </p>
+          <button className="px-5 py-2 bg-blue-900 text-white text-sm font-medium rounded-full border border-blue-900 hover:bg-blue-800 transition">
+            Schedule a Free Consultation
+          </button>
         </div>
       </div>
     </section>

@@ -36,7 +36,7 @@ export function OurSolution() {
 
             <div className="grid md:grid-cols-2 gap-4">
               {/* Top card */}
-              <div className="rounded-lg border border-border bg-background p-5 md:col-span-2">
+              <div className="rounded-lg border-2 border-primary bg-background p-5 md:col-span-2">
                 <p className="font-heading text-lg text-primary/80 mb-2 tracking-wide">
                   Clear diagnosis
                 </p>
@@ -47,7 +47,7 @@ export function OurSolution() {
               </div>
 
               {/* Bottom left */}
-              <div className="rounded-lg border border-border bg-background p-5">
+              <div className="rounded-lg border-2 border-primary bg-background p-5">
                 <p className="font-heading text-lg text-primary/80 mb-2 tracking-wide">
                   Market navigation
                 </p>
@@ -58,7 +58,7 @@ export function OurSolution() {
               </div>
 
               {/* Bottom right */}
-              <div className="rounded-lg border border-border bg-background p-5">
+              <div className="rounded-lg border-2 border-primary bg-background p-5">
                 <p className="font-heading text-lg text-primary/80 mb-2 tracking-wide">
                   Ongoing stewardship
                 </p>

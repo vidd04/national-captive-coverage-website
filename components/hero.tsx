@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -13,12 +14,18 @@ export function Hero() {
               Tired of your premiums funding other companies that can't manage their risk? We help the Best American Businesses paying over $150K in aggregate annual premium move past the volatile off-the-shelf insurance market and into group captive insurance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="px-8 py-3 bg-primary text-primary-foreground text-sm hover:opacity-85 transition">
-                Request Feasibility Study
-              </button>
-              <button className="px-8 py-3 border border-foreground text-foreground text-sm hover:bg-foreground/5 transition">
-                Download Overview
-              </button>
+              <Link
+                href="#contact"
+                className="px-8 py-3 bg-primary text-primary-foreground text-sm hover:opacity-85 transition text-center"
+              >
+                Contact Us
+              </Link>
+              <Link
+                href="#how-we-help"
+                className="px-8 py-3 border border-foreground text-foreground text-sm hover:bg-foreground/5 transition text-center"
+              >
+                Learn More About Captives
+              </Link>
             </div>
           </div>
           <div className="flex items-center justify-center h-full">
@@ -34,7 +41,7 @@ export function Hero() {
           </div>
         </div>
       </div>
-      {/* Divider Image */}
+      {/* Divider Image - mirrored strip that stays aligned on all sizes */}
       <div className="absolute bottom-0 left-0 right-0 w-full h-16 sm:h-20 lg:h-24 flex">
         <div className="relative w-1/2 h-full overflow-hidden">
           <Image
@@ -42,7 +49,7 @@ export function Hero() {
             alt=""
             fill
             className="object-cover"
-            style={{ objectPosition: 'center right' }}
+            style={{ objectPosition: "center" }}
             loading="lazy"
           />
         </div>
@@ -52,7 +59,7 @@ export function Hero() {
             alt=""
             fill
             className="object-cover"
-            style={{ objectPosition: 'center left', transform: 'scaleX(-1)' }}
+            style={{ objectPosition: "center", transform: "scaleX(-1)" }}
             loading="lazy"
           />
         </div>
