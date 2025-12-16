@@ -41,10 +41,10 @@ export default function Home() {
       <section className="px-6 py-16 sm:px-6 lg:px-8 bg-card border-t border-border mt-10">
         <div className="mx-auto max-w-6xl text-center">
           <p className="font-heading text-2xl sm:text-3xl text-foreground mb-4">
-            Placeholder Section
+            Placeholder Section (hi)
           </p>
           <p className="text-foreground/70">
-            This is a temporary section at the bottom of the page. Replace this content with your final copy and layout.
+            This is a temporary section at the bottom of the page. Replace this content with your final copy and layout. Hi.
           </p>
         </div>
       </section>
