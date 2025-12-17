@@ -11,9 +11,13 @@ export function Navigation() {
     <nav className="border-b border-border bg-background sticky top-0 z-50">
       <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2 text-foreground text-sm tracking-tight">
-            <Image src="/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" alt="National Captive Insurance logo" width={32} height={32} className="h-5 w-auto" loading="eager" />
-            <span className="font-logo">National Captive Insurance</span>
+          <Link href="/" className="flex items-start gap-2 text-foreground tracking-tight">
+            <Image src="/u2828374554_a_3D_geometric_blue_professional_artistic_shape_i_df34a921-c858-4785-8ccd-afb7819b5d58_0-removebg-preview-Picsart-AiImageEnhancer.png" alt="National Captive Insurance logo" width={40} height={40} className="h-10 w-auto" loading="eager" />
+            <div className="leading-tight">
+              <span className="block font-logo text-[10px]">National</span>
+              <span className="block font-logo text-[10px]">Captive</span>
+              <span className="block font-logo text-[10px]">Insurance</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -32,9 +36,9 @@ export function Navigation() {
             </Link>
           </div>
 
-          <button className="hidden md:block px-6 py-2 bg-primary text-primary-foreground text-sm hover:opacity-85 transition">
+          <a href="https://calendly.com/aguglani-1/phone-call" target="_blank" rel="noopener noreferrer" className="hidden md:block px-6 py-2 bg-primary text-primary-foreground text-sm hover:opacity-85 transition">
             Contact Us
-          </button>
+          </a>
 
           {/* Mobile Menu Button */}
           <button className="md:hidden text-foreground" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
@@ -59,9 +63,9 @@ export function Navigation() {
             <Link href="#contact" className="block text-sm text-foreground/80 hover:text-foreground" onClick={() => setIsOpen(false)}>
               Contact
             </Link>
-            <button className="w-full px-4 py-2 bg-primary text-primary-foreground text-sm hover:opacity-85 transition mt-4">
+            <a href="https://calendly.com/aguglani-1/phone-call" target="_blank" rel="noopener noreferrer" className="w-full px-4 py-2 bg-primary text-primary-foreground text-sm hover:opacity-85 transition mt-4 text-center block">
               Contact Us
-            </button>
+            </a>
           </div>
         )}
       </div>

@@ -54,14 +54,14 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition">
+                <span className="text-foreground/70 cursor-not-allowed opacity-60">
                   Resources
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition">
+                <span className="text-foreground/70 cursor-not-allowed opacity-60">
                   News
-                </a>
+                </span>
               </li>
             </ul>
             </div>
@@ -69,14 +69,14 @@ export function Footer() {
               <h4 className="text-foreground mb-4 text-sm">Legal</h4>
               <ul className="space-y-2 text-sm text-foreground/70">
               <li>
-                <a href="#" className="hover:text-primary transition">
+                <span className="text-foreground/70 cursor-not-allowed opacity-60">
                   Privacy Policy
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition">
+                <span className="text-foreground/70 cursor-not-allowed opacity-60">
                   Terms of Service
-                </a>
+                </span>
               </li>
             </ul>
             </div>

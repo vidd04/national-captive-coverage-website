@@ -39,13 +39,22 @@ export function HowItWorks() {
           ))}
         </div>
         {/* Thin blue bar callout under steps */}
-        <div className="mt-10 rounded-full border border-primary bg-primary/5 px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <p className="text-sm text-primary font-medium">
-            Learn more about how captive insurance can change your business.
-          </p>
-          <button className="px-5 py-2 bg-blue-900 text-white text-sm font-medium rounded-full border border-blue-900 hover:bg-blue-800 transition">
-            Schedule a Free Consultation
-          </button>
+        <div className="mt-10 flex flex-col sm:flex-row gap-3">
+          <div className="rounded-full border border-primary bg-primary/5 px-4 py-3 flex items-center justify-center sm:flex-1">
+            <p className="text-sm text-primary font-medium text-center">
+              Learn more about how captive insurance can change your business.
+            </p>
+          </div>
+          <div className="rounded-full border border-primary bg-primary/5 px-4 py-3 flex items-center justify-center sm:flex-shrink-0">
+            <a 
+              href="https://calendly.com/aguglani-1/phone-call" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-5 py-2 bg-blue-900 text-white text-sm font-medium rounded-full border border-blue-900 hover:bg-blue-800 transition w-full sm:w-auto text-center"
+            >
+              Schedule a Free Consultation
+            </a>
+          </div>
         </div>
       </div>
     </section>

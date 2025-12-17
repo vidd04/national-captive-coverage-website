@@ -5,7 +5,7 @@ export function EliteCompanyBanner() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-foreground/70 leading-relaxed">
-              Captives are not a new concept: it's the gold standard of risk management. Over 90% of Fortune 500 companies and thousands of businesses use captives because they are sophisticated, long-term tools for retaining unused premiums and stabilizing insurance costs. Now, this elite financial strategy is accessible to you.
+              Captives are not a new concept: it's the gold standard of risk management since the 1970s. Over 90% of Fortune 500 companies and thousands of businesses use captives because they are sophisticated, long-term tools for retaining unused premiums and stabilizing insurance costs. Now, this elite financial strategy is accessible to you.
             </p>
           </div>
           <div>

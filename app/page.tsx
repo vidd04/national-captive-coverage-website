@@ -34,7 +34,9 @@ export default function Home() {
             </p>
           </div>
           <a
-            href="#contact"
+            href="https://calendly.com/aguglani-1/phone-call"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-3 bg-white text-[#0b1f3b] text-sm font-medium hover:bg-white/90 transition whitespace-nowrap"
           >
             Contact Us

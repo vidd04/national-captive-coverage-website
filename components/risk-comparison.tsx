@@ -96,13 +96,13 @@ export function RiskComparison() {
           {comparisons.map((row, idx) => (
             <div key={idx} className="border border-border rounded-lg p-6 bg-background">
               <h4 className="font-heading text-lg text-foreground font-medium mb-4">{row.benefit}</h4>
-              <div className="space-y-3">
-                <div>
-                  <div className="text-xs text-primary/70 mb-1">Captive Program (Your Offer)</div>
+              <div className="space-y-4">
+                <div className="border border-primary/60 rounded-lg p-3 bg-primary/5">
+                  <div className="text-sm md:text-xs text-primary/70 mb-1 font-medium">Captive Program (Your Offer)</div>
                   <div className="text-sm text-foreground">{renderText(row.captive)}</div>
                 </div>
-                <div>
-                  <div className="text-xs text-foreground/50 mb-1">Traditional Insurance</div>
+                <div className="border border-foreground/30 rounded-lg p-3 bg-foreground/5">
+                  <div className="text-sm md:text-xs text-foreground/50 mb-1 font-medium">Traditional Insurance</div>
                   <div className="text-sm text-foreground/70">{renderText(row.trad)}</div>
                 </div>
               </div>

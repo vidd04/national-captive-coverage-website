@@ -12,7 +12,7 @@ export function KeyMetrics() {
           {metrics.map((metric, idx) => (
             <div key={idx} className="space-y-2 md:space-y-3">
               <div className="text-3xl md:text-4xl font-heading text-primary-foreground">{metric.value}</div>
-              <div className="text-xs md:text-sm text-primary-foreground/80">{metric.label}</div>
+              <div className="text-sm md:text-base text-primary-foreground/80">{metric.label}</div>
             </div>
           ))}
         </div>

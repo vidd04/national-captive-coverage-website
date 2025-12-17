@@ -15,9 +15,9 @@ export function QualifyCTA() {
             <p className="text-white text-lg mb-3">
               See If You Qualify for a Captive
             </p>
-            <button className="px-8 py-3 bg-white text-blue-900 text-sm font-medium hover:opacity-90 transition">
+            <a href="https://calendly.com/aguglani-1/phone-call" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-white text-blue-900 text-sm font-medium hover:opacity-90 transition inline-block">
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
       </div>

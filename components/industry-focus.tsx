@@ -53,11 +53,11 @@ export function IndustryFocus() {
         <p className="text-foreground/70 mb-12 max-w-2xl">
           We specialize in designing captive solutions tailored to the unique risk profiles of specific industries.
         </p>
-        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-6">
           {industries.map((industry, idx) => (
             <div
               key={idx}
-              className="relative aspect-square rounded-lg overflow-hidden group hover:scale-105 transition-transform duration-300"
+              className="relative aspect-[4/5] md:aspect-square rounded-lg overflow-hidden group hover:scale-105 transition-transform duration-300"
             >
               {/* Background Image */}
               <div
@@ -68,8 +68,8 @@ export function IndustryFocus() {
               />
 
               {/* Industry Name - Bottom Bar */}
-              <div className="absolute inset-x-0 bottom-0 bg-blue-900/90 px-4 py-3">
-                <h3 className="font-heading text-sm sm:text-base lg:text-sm text-white font-medium leading-tight">
+              <div className="absolute inset-x-0 bottom-0 bg-blue-900/90 px-2 md:px-4 py-1.5 md:py-3">
+                <h3 className="font-heading text-sm md:text-base lg:text-sm text-white font-medium leading-tight">
                   {industry.name}
                 </h3>
               </div>
@@ -77,19 +77,19 @@ export function IndustryFocus() {
           ))}
 
           {/* Fallback industry card */}
-          <div className="relative aspect-square rounded-lg bg-blue-900 text-white p-5 flex flex-col justify-between">
+          <div className="relative aspect-[4/5] md:aspect-square rounded-lg bg-blue-900 text-white p-3 md:p-5 flex flex-col justify-between">
             <div>
-              <h3 className="font-heading text-base lg:text-sm font-medium mb-3 leading-tight">
+              <h3 className="font-heading text-base md:text-base lg:text-sm font-medium mb-2 md:mb-3 leading-tight">
                 Don't see your industry?
               </h3>
-              <p className="text-sm text-blue-100 leading-relaxed">
+              <p className="text-xs md:text-sm text-blue-100 leading-relaxed">
                 We can still help you evaluate whether a captive is the right fit for your business.
               </p>
             </div>
             <div className="mt-4">
-              <button className="px-5 py-2 bg-white text-blue-900 text-sm font-medium hover:opacity-90 transition">
+              <a href="https://calendly.com/aguglani-1/phone-call" target="_blank" rel="noopener noreferrer" className="px-5 py-2 bg-white text-blue-900 text-sm font-medium hover:opacity-90 transition inline-block">
                 Contact Us
-              </button>
+              </a>
             </div>
           </div>
         </div>

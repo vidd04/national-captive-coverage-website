@@ -15,7 +15,9 @@ export function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="#contact"
+                href="https://calendly.com/aguglani-1/phone-call"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-3 bg-primary text-primary-foreground text-sm hover:opacity-85 transition text-center"
               >
                 Contact Us

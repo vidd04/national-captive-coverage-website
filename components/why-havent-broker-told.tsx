@@ -8,7 +8,7 @@ export function WhyHaventBrokerTold() {
           </h2>
         </div>
 
-        <div className="mb-6 rounded-xl border border-primary bg-primary px-4 py-2 flex items-center justify-center text-[11px] md:text-xs font-medium tracking-[0.18em] uppercase text-primary-foreground text-center">
+        <div className="mb-6 rounded-xl border border-primary bg-primary px-4 py-2 flex items-center justify-center text-[9px] sm:text-[10px] md:text-xs font-medium tracking-[0.15em] sm:tracking-[0.18em] uppercase text-primary-foreground text-center whitespace-nowrap">
           The Best Kept Secret in Commercial Insurance
         </div>
 

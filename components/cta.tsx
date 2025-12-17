@@ -12,11 +12,16 @@ export function CTA() {
             explore your options.
           </p>
           <div className="space-y-4">
-            <button className="px-8 py-3 bg-primary text-primary-foreground text-sm hover:opacity-85 transition">
+            <a 
+              href="https://calendly.com/aguglani-1/phone-call" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 bg-primary text-primary-foreground text-sm hover:opacity-85 transition"
+            >
               Request Feasibility Study
-            </button>
+            </a>
             <p className="text-xs sm:text-sm text-foreground/60 max-w-md">
-              No obligation. Our analysis takes 2–3 weeks and includes detailed recommendations tailored to your risk
+              No obligation. Our analysis takes 1 week and includes detailed recommendations tailored to your risk
               profile.
             </p>
           </div>

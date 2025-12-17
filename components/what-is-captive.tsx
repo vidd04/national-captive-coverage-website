@@ -64,7 +64,7 @@ export function WhatIsCaptive() {
             
             <div className="space-y-6 text-foreground/70 leading-relaxed">
               <p>
-                A <strong className="text-foreground">captive insurance company</strong> is a licensed insurance company that is owned and controlled by the same organization(s) it insures. It is a way for businesses to legally <strong className="text-foreground">self-insure</strong> their risk in a formal, regulated structure that has the ability to issue Certificates of Insurance (COIs) and qualify for tax deductibility.
+                A <strong className="text-foreground">captive insurance company</strong> is a licensed insurance company that is owned and controlled by the same organization(s) it insures. It is a way for businesses to legally <strong className="text-foreground">self-insure</strong> their risk in a formal, regulated structure that has the <strong className="text-foreground">ability to issue Certificates of Insurance (COIs) and qualify for tax deductibility.</strong>
               </p>
               <p>
                 The portion of risk self-insured by a captive is strategically chosen by licensed actuaries to retain small, predictable losses and to <strong className="text-foreground">reduce the cost of additional coverage (reinsurance) used for catastrophic protection.</strong>
